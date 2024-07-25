@@ -1,0 +1,47 @@
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+//animate css 
+@import '~animate.css/animate.min.css';
+
+// bootstrap 
+@import '~bootstrap/dist/css/bootstrap.css';
+
+// Dropzone css
+@import '~react-dropzone-uploader/dist/styles.css';
+
+// toastify
+@import '~react-toastify/dist/ReactToastify.css';
+
+// vendors
+@import "vendor/font-awesome";
+
+// utils
+@import "utils/variables";
+@import "utils/mixins";
+
+// base
+@import "base/reset";
+
+// layout
+@import "layout/sidebar";
+
+// components
+@import "components/buttons";
+@import "components/labels";
+@import "components/form";
+@import "components/card";
+@import "components/pagination";
+@import "components/property";
+@import "components/map";
+@import "components/slick";
+@import "components/loader";
+@import "components/customizer";
+
+// pages
+@import "pages/admin-pages";
+@import "pages/inner-pages";
+
+// Template
+@import "template/admin-responsive";
